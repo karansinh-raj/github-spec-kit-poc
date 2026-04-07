@@ -1,0 +1,12 @@
+C:\Karan Raj\POC\github-spec-kit-poc\src\BookShelf.Domain\bin\Debug\net10.0\BookShelf.Domain.deps.json
+C:\Karan Raj\POC\github-spec-kit-poc\src\BookShelf.Domain\bin\Debug\net10.0\BookShelf.Domain.dll
+C:\Karan Raj\POC\github-spec-kit-poc\src\BookShelf.Domain\bin\Debug\net10.0\BookShelf.Domain.pdb
+C:\Karan Raj\POC\github-spec-kit-poc\src\BookShelf.Domain\obj\Debug\net10.0\BookShelf.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Karan Raj\POC\github-spec-kit-poc\src\BookShelf.Domain\obj\Debug\net10.0\BookShelf.Domain.AssemblyInfoInputs.cache
+C:\Karan Raj\POC\github-spec-kit-poc\src\BookShelf.Domain\obj\Debug\net10.0\BookShelf.Domain.AssemblyInfo.cs
+C:\Karan Raj\POC\github-spec-kit-poc\src\BookShelf.Domain\obj\Debug\net10.0\BookShelf.Domain.csproj.CoreCompileInputs.cache
+C:\Karan Raj\POC\github-spec-kit-poc\src\BookShelf.Domain\obj\Debug\net10.0\BookShelf.Domain.sourcelink.json
+C:\Karan Raj\POC\github-spec-kit-poc\src\BookShelf.Domain\obj\Debug\net10.0\BookShelf.Domain.dll
+C:\Karan Raj\POC\github-spec-kit-poc\src\BookShelf.Domain\obj\Debug\net10.0\refint\BookShelf.Domain.dll
+C:\Karan Raj\POC\github-spec-kit-poc\src\BookShelf.Domain\obj\Debug\net10.0\BookShelf.Domain.pdb
+C:\Karan Raj\POC\github-spec-kit-poc\src\BookShelf.Domain\obj\Debug\net10.0\ref\BookShelf.Domain.dll

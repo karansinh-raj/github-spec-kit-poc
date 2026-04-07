@@ -1,50 +1,76 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+<!--
+Sync Impact Report:
+- Version change: 0.0.0 → 1.0.0
+- Added principles: Clean Architecture, Minimal APIs, SOLID & Clean Code, Test-First, Consistent API Design, Simplicity
+- Added sections: Technology Stack, Development Workflow
+- Templates requiring updates: ✅ spec-template.md (no changes needed) | ✅ plan-template.md (no changes needed) | ✅ tasks-template.md (no changes needed)
+- Follow-up TODOs: none
+-->
+
+# BookShelf API Constitution
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### I. Clean Architecture (NON-NEGOTIABLE)
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+Every feature MUST follow Clean Architecture with four layers:
+- **Domain**: Entities, value objects, enumerations — zero external dependencies
+- **Application**: Use cases (commands/queries via MediatR), DTOs, interfaces, validators — depends only on Domain
+- **Infrastructure**: EF Core DbContext, repository implementations, external services — implements Application interfaces
+- **API**: Minimal API endpoint definitions, middleware, DI configuration — references Application and Infrastructure
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+Layer dependency rule: dependencies MUST point inward only (API → Infrastructure → Application → Domain). No layer may reference a layer above it.
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+### II. Minimal APIs
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+All HTTP endpoints MUST use .NET Minimal APIs (not MVC controllers). Endpoints MUST be organized in static extension method classes grouped by feature/entity (e.g., `BookEndpoints.cs`). Each endpoint class MUST use `MapGroup` for route prefixing.
 
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
+### III. SOLID & Clean Code
 
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
+- Single Responsibility: each class has one reason to change
+- Open/Closed: extend via new implementations, not modifying existing code
+- Liskov Substitution: derived types MUST be substitutable for their base types
+- Interface Segregation: prefer small, focused interfaces
+- Dependency Inversion: depend on abstractions, not concretions
+- Use nullable reference types throughout
+- Use `record` types for DTOs and value objects where immutability is appropriate
 
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
+### IV. Test-First
 
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+Unit tests MUST exist for all business logic in the Application layer. Testing stack: xUnit + FluentAssertions + NSubstitute. Tests MUST be organized mirroring the source project structure. Integration tests SHOULD cover critical API endpoint flows using `WebApplicationFactory`.
+
+### V. Consistent API Design
+
+- All API responses MUST use a consistent envelope: `{ data, errors, meta }`
+- Use FluentValidation for all request validation
+- Return appropriate HTTP status codes: 200 (OK), 201 (Created), 204 (No Content), 400 (Bad Request), 404 (Not Found), 409 (Conflict), 422 (Validation Error)
+- Use Result pattern for error handling — no exceptions for business logic flow control
+- Support pagination via `page` and `pageSize` query parameters with sensible defaults
+
+### VI. Simplicity (YAGNI)
+
+Start simple. Do not add abstractions, patterns, or features until there is a concrete, immediate need. Prefer EF Core InMemory provider for this POC — no external database dependencies. Avoid over-engineering: if a simple method call works, do not introduce a pattern around it.
+
+## Technology Stack
+
+- **Runtime**: .NET 10
+- **API Style**: Minimal APIs
+- **ORM**: Entity Framework Core (InMemory provider)
+- **Validation**: FluentValidation
+- **CQRS**: MediatR
+- **Testing**: xUnit, FluentAssertions, NSubstitute, Microsoft.AspNetCore.Mvc.Testing
+- **Documentation**: Swagger / OpenAPI (Swashbuckle)
+- **Language**: C# 13 with nullable reference types enabled
+
+## Development Workflow
+
+- Each feature MUST go through the Spec-Driven Development workflow: specify → plan → tasks → implement
+- All code changes MUST compile with zero warnings (TreatWarningsAsErrors)
+- All tests MUST pass before a feature is considered complete
+- Feature branches follow the naming convention: `###-feature-name`
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
+This constitution supersedes all ad-hoc decisions. Any deviation MUST be documented with justification in the relevant plan.md. Amendments require updating version, ratification date, and a sync impact report.
 
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+**Version**: 1.0.0 | **Ratified**: 2026-04-07 | **Last Amended**: 2026-04-07
