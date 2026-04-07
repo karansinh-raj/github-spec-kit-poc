@@ -13,6 +13,7 @@ public static class DependencyInjection
             options.UseInMemoryDatabase("BookShelfDb"));
 
         services.AddScoped<IBookRepository, BookRepository>();
+        services.AddScoped<IReadingListRepository, ReadingListRepository>();
 
         return services;
     }
