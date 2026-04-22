@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "hooks": {
+    "preToolUse": [
+      {
+        "type": "command",
+        "bash": ".github/hooks/scripts/log-tool-use.sh",
+        "powershell": ".github/hooks/scripts/log-tool-use.ps1",
+        "timeoutSec": 30,
+        "comment": "Log every tool execution to .github/hooks/logs/tool-usage.jsonl for audit and security review"
+      }
+    ],
+    "sessionStart": [
+      {
+        "type": "command",
+        "bash": ".github/hooks/scripts/log-session-start.sh",
+        "powershell": ".github/hooks/scripts/log-session-start.ps1",
+        "timeoutSec": 30,
+        "comment": "Record the start of each Copilot Coding Agent session to .github/hooks/logs/sessions.jsonl"
+      }
+    ]
+  }
+}
