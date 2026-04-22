@@ -8,26 +8,20 @@
     "net10.0": []
   },
   "packageFolders": {
-    "C:\\Users\\karansinh\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "/home/runner/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Karan Raj\\POC\\github-spec-kit-poc\\src\\BookShelf.Domain\\BookShelf.Domain.csproj",
+      "projectUniqueName": "/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/src/BookShelf.Domain/BookShelf.Domain.csproj",
       "projectName": "BookShelf.Domain",
-      "projectPath": "C:\\Karan Raj\\POC\\github-spec-kit-poc\\src\\BookShelf.Domain\\BookShelf.Domain.csproj",
-      "packagesPath": "C:\\Users\\karansinh\\.nuget\\packages\\",
-      "outputPath": "C:\\Karan Raj\\POC\\github-spec-kit-poc\\src\\BookShelf.Domain\\obj\\",
+      "projectPath": "/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/src/BookShelf.Domain/BookShelf.Domain.csproj",
+      "packagesPath": "/home/runner/.nuget/packages/",
+      "outputPath": "/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/src/BookShelf.Domain/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Karan Raj\\POC\\github-spec-kit-poc\\NuGet.Config",
-        "C:\\Users\\karansinh\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/nuget.config",
+        "/home/runner/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
@@ -72,7 +66,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.202/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.CSharp": "(,4.7.32767]",
           "Microsoft.VisualBasic": "(,10.4.32767]",

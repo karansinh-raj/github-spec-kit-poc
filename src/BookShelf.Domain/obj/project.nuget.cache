@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cDngnn2BryA=",
+  "dgSpecHash": "uiwQqaxXQ1s=",
   "success": true,
-  "projectFilePath": "C:\\Karan Raj\\POC\\github-spec-kit-poc\\src\\BookShelf.Domain\\BookShelf.Domain.csproj",
+  "projectFilePath": "/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/src/BookShelf.Domain/BookShelf.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
