@@ -1,237 +1,119 @@
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/.msCoverageSourceRootsMapping_BookShelf.Application.Tests
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/CoverletSourceRootsMapping_BookShelf.Application.Tests
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/testhost.dll
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/xunit.abstractions.dll
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/testhost.exe
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/xunit.runner.visualstudio.testadapter.dll
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/BookShelf.Application.Tests.deps.json
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/BookShelf.Application.Tests.runtimeconfig.json
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/BookShelf.Application.Tests.dll
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/BookShelf.Application.Tests.pdb
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/Castle.Core.dll
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/FluentAssertions.dll
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/FluentValidation.dll
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/FluentValidation.DependencyInjectionExtensions.dll
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/MediatR.dll
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/MediatR.Contracts.dll
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/Microsoft.VisualStudio.CodeCoverage.Shim.dll
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/Microsoft.Extensions.Logging.Abstractions.dll
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/Microsoft.IdentityModel.Abstractions.dll
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/Microsoft.IdentityModel.JsonWebTokens.dll
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/Microsoft.IdentityModel.Logging.dll
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/Microsoft.IdentityModel.Tokens.dll
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/Microsoft.TestPlatform.CoreUtilities.dll
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/Microsoft.TestPlatform.PlatformAbstractions.dll
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/Microsoft.TestPlatform.CommunicationUtilities.dll
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/Microsoft.TestPlatform.CrossPlatEngine.dll
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/Microsoft.TestPlatform.Utilities.dll
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/Microsoft.VisualStudio.TestPlatform.Common.dll
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/Newtonsoft.Json.dll
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/NSubstitute.dll
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/System.Diagnostics.EventLog.dll
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/xunit.assert.dll
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/xunit.core.dll
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/xunit.execution.dotnet.dll
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/cs/Microsoft.TestPlatform.CoreUtilities.resources.dll
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/cs/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/de/Microsoft.TestPlatform.CoreUtilities.resources.dll
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/de/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/es/Microsoft.TestPlatform.CoreUtilities.resources.dll
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/es/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/fr/Microsoft.TestPlatform.CoreUtilities.resources.dll
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/fr/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/it/Microsoft.TestPlatform.CoreUtilities.resources.dll
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/it/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/ja/Microsoft.TestPlatform.CoreUtilities.resources.dll
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/ja/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/ko/Microsoft.TestPlatform.CoreUtilities.resources.dll
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/ko/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/pl/Microsoft.TestPlatform.CoreUtilities.resources.dll
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/pl/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/pt-BR/Microsoft.TestPlatform.CoreUtilities.resources.dll
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/pt-BR/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/ru/Microsoft.TestPlatform.CoreUtilities.resources.dll
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/ru/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/tr/Microsoft.TestPlatform.CoreUtilities.resources.dll
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/tr/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/zh-Hans/Microsoft.TestPlatform.CoreUtilities.resources.dll
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/zh-Hant/Microsoft.TestPlatform.CoreUtilities.resources.dll
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/cs/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/cs/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/cs/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/de/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/de/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/de/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/es/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/es/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/es/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/fr/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/fr/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/fr/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/it/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/it/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/it/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/ja/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/ja/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/ja/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/ko/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/ko/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/ko/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/pl/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/pl/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/pl/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/pt-BR/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/pt-BR/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/pt-BR/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/ru/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/ru/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/ru/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/tr/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/tr/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/tr/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/zh-Hans/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/zh-Hans/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/zh-Hant/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/zh-Hant/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/runtimes/win/lib/net6.0/System.Diagnostics.EventLog.Messages.dll
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/runtimes/win/lib/net6.0/System.Diagnostics.EventLog.dll
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/BookShelf.Application.dll
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/BookShelf.Domain.dll
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/BookShelf.Application.pdb
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/BookShelf.Domain.pdb
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/obj/Debug/net10.0/BookShelf.Application.Tests.csproj.AssemblyReference.cache
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/obj/Debug/net10.0/BookShelf.Application.Tests.GeneratedMSBuildEditorConfig.editorconfig
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/obj/Debug/net10.0/BookShelf.Application.Tests.AssemblyInfoInputs.cache
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/obj/Debug/net10.0/BookShelf.Application.Tests.AssemblyInfo.cs
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/obj/Debug/net10.0/BookShelf.Application.Tests.csproj.CoreCompileInputs.cache
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/obj/Debug/net10.0/BookShelf.Application.Tests.sourcelink.json
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/obj/Debug/net10.0/BookShel.DB13B1BB.Up2Date
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/obj/Debug/net10.0/BookShelf.Application.Tests.dll
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/obj/Debug/net10.0/refint/BookShelf.Application.Tests.dll
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/obj/Debug/net10.0/BookShelf.Application.Tests.pdb
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/obj/Debug/net10.0/BookShelf.Application.Tests.genruntimeconfig.cache
-C:/Karan Raj/POC/github-spec-kit-poc/tests/BookShelf.Application.Tests/obj/Debug/net10.0/ref/BookShelf.Application.Tests.dll
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/.msCoverageSourceRootsMapping_BookShelf.Application.Tests
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/CoverletSourceRootsMapping_BookShelf.Application.Tests
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/xunit.abstractions.dll
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/xunit.runner.visualstudio.testadapter.dll
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/BookShelf.Application.Tests.deps.json
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/BookShelf.Application.Tests.runtimeconfig.json
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/BookShelf.Application.Tests.dll
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/BookShelf.Application.Tests.pdb
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/Castle.Core.dll
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/FluentAssertions.dll
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/FluentValidation.dll
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/FluentValidation.DependencyInjectionExtensions.dll
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/MediatR.dll
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/MediatR.Contracts.dll
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/Microsoft.VisualStudio.CodeCoverage.Shim.dll
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/Microsoft.Extensions.Logging.Abstractions.dll
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/Microsoft.IdentityModel.Abstractions.dll
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/Microsoft.IdentityModel.JsonWebTokens.dll
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/Microsoft.IdentityModel.Logging.dll
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/Microsoft.IdentityModel.Tokens.dll
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/Microsoft.TestPlatform.CoreUtilities.dll
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/Microsoft.TestPlatform.PlatformAbstractions.dll
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/Microsoft.TestPlatform.CommunicationUtilities.dll
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/Microsoft.TestPlatform.CrossPlatEngine.dll
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/Microsoft.TestPlatform.Utilities.dll
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/Microsoft.VisualStudio.TestPlatform.Common.dll
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/testhost.dll
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/Newtonsoft.Json.dll
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/NSubstitute.dll
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/System.Diagnostics.EventLog.dll
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/xunit.assert.dll
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/xunit.core.dll
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/xunit.execution.dotnet.dll
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/cs/Microsoft.TestPlatform.CoreUtilities.resources.dll
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/cs/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/de/Microsoft.TestPlatform.CoreUtilities.resources.dll
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/de/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/es/Microsoft.TestPlatform.CoreUtilities.resources.dll
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/es/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/fr/Microsoft.TestPlatform.CoreUtilities.resources.dll
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/fr/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/it/Microsoft.TestPlatform.CoreUtilities.resources.dll
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/it/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/ja/Microsoft.TestPlatform.CoreUtilities.resources.dll
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/ja/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/ko/Microsoft.TestPlatform.CoreUtilities.resources.dll
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/ko/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/pl/Microsoft.TestPlatform.CoreUtilities.resources.dll
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/pl/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/pt-BR/Microsoft.TestPlatform.CoreUtilities.resources.dll
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/pt-BR/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/ru/Microsoft.TestPlatform.CoreUtilities.resources.dll
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/ru/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/tr/Microsoft.TestPlatform.CoreUtilities.resources.dll
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/tr/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/zh-Hans/Microsoft.TestPlatform.CoreUtilities.resources.dll
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/zh-Hant/Microsoft.TestPlatform.CoreUtilities.resources.dll
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/cs/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/cs/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/cs/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/de/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/de/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/de/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/es/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/es/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/es/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/fr/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/fr/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/fr/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/it/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/it/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/it/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/ja/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/ja/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/ja/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/ko/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/ko/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/ko/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/pl/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/pl/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/pl/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/pt-BR/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/pt-BR/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/pt-BR/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/ru/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/ru/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/ru/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/tr/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/tr/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/tr/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/zh-Hans/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/zh-Hans/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/zh-Hant/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/zh-Hant/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/runtimes/win/lib/net6.0/System.Diagnostics.EventLog.Messages.dll
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/runtimes/win/lib/net6.0/System.Diagnostics.EventLog.dll
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/BookShelf.Application.dll
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/BookShelf.Domain.dll
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/BookShelf.Application.pdb
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/bin/Debug/net10.0/BookShelf.Domain.pdb
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/obj/Debug/net10.0/BookShelf.Application.Tests.csproj.AssemblyReference.cache
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/obj/Debug/net10.0/BookShelf.Application.Tests.GeneratedMSBuildEditorConfig.editorconfig
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/obj/Debug/net10.0/BookShelf.Application.Tests.AssemblyInfoInputs.cache
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/obj/Debug/net10.0/BookShelf.Application.Tests.AssemblyInfo.cs
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/obj/Debug/net10.0/BookShelf.Application.Tests.csproj.CoreCompileInputs.cache
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/obj/Debug/net10.0/BookShelf.Application.Tests.sourcelink.json
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/obj/Debug/net10.0/BookShel.DB13B1BB.Up2Date
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/obj/Debug/net10.0/BookShelf.Application.Tests.dll
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/obj/Debug/net10.0/refint/BookShelf.Application.Tests.dll
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/obj/Debug/net10.0/BookShelf.Application.Tests.pdb
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/obj/Debug/net10.0/BookShelf.Application.Tests.genruntimeconfig.cache
-/home/runner/work/github-spec-kit-poc/github-spec-kit-poc/tests/BookShelf.Application.Tests/obj/Debug/net10.0/ref/BookShelf.Application.Tests.dll
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\bin\Debug\net10.0\.msCoverageSourceRootsMapping_BookShelf.Application.Tests
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\bin\Debug\net10.0\CoverletSourceRootsMapping_BookShelf.Application.Tests
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\bin\Debug\net10.0\testhost.dll
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\bin\Debug\net10.0\xunit.abstractions.dll
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\bin\Debug\net10.0\testhost.exe
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\bin\Debug\net10.0\xunit.runner.visualstudio.testadapter.dll
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\bin\Debug\net10.0\BookShelf.Application.Tests.deps.json
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\bin\Debug\net10.0\BookShelf.Application.Tests.runtimeconfig.json
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\bin\Debug\net10.0\BookShelf.Application.Tests.dll
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\bin\Debug\net10.0\BookShelf.Application.Tests.pdb
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\bin\Debug\net10.0\Castle.Core.dll
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\bin\Debug\net10.0\FluentAssertions.dll
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\bin\Debug\net10.0\FluentValidation.dll
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\bin\Debug\net10.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\bin\Debug\net10.0\MediatR.dll
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\bin\Debug\net10.0\MediatR.Contracts.dll
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\bin\Debug\net10.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\bin\Debug\net10.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\bin\Debug\net10.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\bin\Debug\net10.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\bin\Debug\net10.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\bin\Debug\net10.0\Microsoft.IdentityModel.Logging.dll
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\bin\Debug\net10.0\Microsoft.IdentityModel.Tokens.dll
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\bin\Debug\net10.0\Microsoft.TestPlatform.CoreUtilities.dll
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\bin\Debug\net10.0\Microsoft.TestPlatform.PlatformAbstractions.dll
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\bin\Debug\net10.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\bin\Debug\net10.0\Microsoft.TestPlatform.CommunicationUtilities.dll
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\bin\Debug\net10.0\Microsoft.TestPlatform.CrossPlatEngine.dll
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\bin\Debug\net10.0\Microsoft.TestPlatform.Utilities.dll
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\bin\Debug\net10.0\Microsoft.VisualStudio.TestPlatform.Common.dll
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\bin\Debug\net10.0\Newtonsoft.Json.dll
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\bin\Debug\net10.0\NSubstitute.dll
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\bin\Debug\net10.0\System.Diagnostics.EventLog.dll
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\bin\Debug\net10.0\xunit.assert.dll
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\bin\Debug\net10.0\xunit.core.dll
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\bin\Debug\net10.0\xunit.execution.dotnet.dll
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\bin\Debug\net10.0\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\bin\Debug\net10.0\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\bin\Debug\net10.0\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\bin\Debug\net10.0\de\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\bin\Debug\net10.0\es\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\bin\Debug\net10.0\es\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\bin\Debug\net10.0\fr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\bin\Debug\net10.0\fr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\bin\Debug\net10.0\it\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\bin\Debug\net10.0\it\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\bin\Debug\net10.0\ja\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\bin\Debug\net10.0\ja\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\bin\Debug\net10.0\ko\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\bin\Debug\net10.0\ko\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\bin\Debug\net10.0\pl\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\bin\Debug\net10.0\pl\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\bin\Debug\net10.0\pt-BR\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\bin\Debug\net10.0\pt-BR\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\bin\Debug\net10.0\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\bin\Debug\net10.0\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\bin\Debug\net10.0\tr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\bin\Debug\net10.0\tr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\bin\Debug\net10.0\zh-Hans\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\bin\Debug\net10.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\bin\Debug\net10.0\zh-Hant\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\bin\Debug\net10.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\bin\Debug\net10.0\cs\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\bin\Debug\net10.0\cs\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\bin\Debug\net10.0\cs\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\bin\Debug\net10.0\de\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\bin\Debug\net10.0\de\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\bin\Debug\net10.0\de\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\bin\Debug\net10.0\es\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\bin\Debug\net10.0\es\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\bin\Debug\net10.0\es\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\bin\Debug\net10.0\fr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\bin\Debug\net10.0\fr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\bin\Debug\net10.0\fr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\bin\Debug\net10.0\it\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\bin\Debug\net10.0\it\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\bin\Debug\net10.0\it\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\bin\Debug\net10.0\ja\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\bin\Debug\net10.0\ja\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\bin\Debug\net10.0\ja\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\bin\Debug\net10.0\ko\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\bin\Debug\net10.0\ko\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\bin\Debug\net10.0\ko\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\bin\Debug\net10.0\pl\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\bin\Debug\net10.0\pl\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\bin\Debug\net10.0\pl\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\bin\Debug\net10.0\pt-BR\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\bin\Debug\net10.0\pt-BR\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\bin\Debug\net10.0\pt-BR\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\bin\Debug\net10.0\ru\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\bin\Debug\net10.0\ru\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\bin\Debug\net10.0\ru\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\bin\Debug\net10.0\tr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\bin\Debug\net10.0\tr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\bin\Debug\net10.0\tr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\bin\Debug\net10.0\zh-Hans\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\bin\Debug\net10.0\zh-Hans\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\bin\Debug\net10.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\bin\Debug\net10.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\bin\Debug\net10.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\bin\Debug\net10.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\bin\Debug\net10.0\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.Messages.dll
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\bin\Debug\net10.0\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.dll
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\bin\Debug\net10.0\BookShelf.Application.dll
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\bin\Debug\net10.0\BookShelf.Domain.dll
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\bin\Debug\net10.0\BookShelf.Application.pdb
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\bin\Debug\net10.0\BookShelf.Domain.pdb
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\obj\Debug\net10.0\BookShelf.Application.Tests.csproj.AssemblyReference.cache
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\obj\Debug\net10.0\BookShelf.Application.Tests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\obj\Debug\net10.0\BookShelf.Application.Tests.AssemblyInfoInputs.cache
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\obj\Debug\net10.0\BookShelf.Application.Tests.AssemblyInfo.cs
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\obj\Debug\net10.0\BookShelf.Application.Tests.csproj.CoreCompileInputs.cache
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\obj\Debug\net10.0\BookShelf.Application.Tests.sourcelink.json
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\obj\Debug\net10.0\BookShel.DB13B1BB.Up2Date
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\obj\Debug\net10.0\BookShelf.Application.Tests.dll
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\obj\Debug\net10.0\refint\BookShelf.Application.Tests.dll
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\obj\Debug\net10.0\BookShelf.Application.Tests.pdb
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\obj\Debug\net10.0\BookShelf.Application.Tests.genruntimeconfig.cache
+C:\Karan Raj\POC\github-spec-kit-poc\tests\BookShelf.Application.Tests\obj\Debug\net10.0\ref\BookShelf.Application.Tests.dll
