@@ -20,9 +20,9 @@ public class GlobalExceptionHandler : IExceptionHandler
         _logger.LogError(
             exception,
             "Unhandled exception for {Method} {Path}. TraceId: {TraceId}",
-            httpContext.Request.Method,
-            httpContext.Request.Path,
-            httpContext.TraceIdentifier);
+            SanitizeForLog(httpContext.Request.Method),
+            SanitizeForLog(httpContext.Request.Path.ToString()),
+            SanitizeForLog(httpContext.TraceIdentifier));
 
         var (statusCode, response) = exception switch
         {
@@ -41,8 +41,8 @@ public class GlobalExceptionHandler : IExceptionHandler
         {
             _logger.LogWarning(
                 "Validation failed for {Method} {Path}. ErrorCount: {ErrorCount}",
-                httpContext.Request.Method,
-                httpContext.Request.Path,
+                SanitizeForLog(httpContext.Request.Method),
+                SanitizeForLog(httpContext.Request.Path.ToString()),
                 failedValidation.Errors.Count());
         }
 
@@ -50,4 +50,8 @@ public class GlobalExceptionHandler : IExceptionHandler
         await httpContext.Response.WriteAsJsonAsync(response, cancellationToken);
         return true;
     }
+
+    private static string SanitizeForLog(string value) =>
+        value.Replace("\r", "\\r", StringComparison.Ordinal)
+            .Replace("\n", "\\n", StringComparison.Ordinal);
 }

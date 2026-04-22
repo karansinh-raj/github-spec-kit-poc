@@ -16,23 +16,25 @@ public static class BookEndpoints
     public static void MapBookEndpoints(this IEndpointRouteBuilder app)
     {
         var group = app.MapGroup("/api/books").WithTags("Books");
-        var logger = app.ServiceProvider.GetRequiredService<ILoggerFactory>().CreateLogger("BookEndpoints");
 
         group.AddEndpointFilter(async (context, next) =>
         {
             var stopwatch = Stopwatch.StartNew();
             var httpContext = context.HttpContext;
+            var logger = httpContext.RequestServices.GetRequiredService<ILoggerFactory>().CreateLogger("BookEndpoints");
+            var method = SanitizeForLog(httpContext.Request.Method);
+            var path = SanitizeForLog(httpContext.Request.Path.ToString());
 
-            logger.LogInformation("Handling endpoint request {Method} {Path}", httpContext.Request.Method, httpContext.Request.Path);
+            logger.LogInformation("Handling endpoint request {Method} {Path}", method, path);
             try
             {
                 var result = await next(context);
-                logger.LogInformation("Handled endpoint request {Method} {Path} in {ElapsedMilliseconds}ms", httpContext.Request.Method, httpContext.Request.Path, stopwatch.ElapsedMilliseconds);
+                logger.LogInformation("Handled endpoint request {Method} {Path} in {ElapsedMilliseconds}ms", method, path, stopwatch.ElapsedMilliseconds);
                 return result;
             }
             catch (Exception ex)
             {
-                logger.LogError(ex, "Unhandled exception in endpoint request {Method} {Path}", httpContext.Request.Method, httpContext.Request.Path);
+                logger.LogError(ex, "Unhandled exception in endpoint request {Method} {Path}", method, path);
                 throw;
             }
         });
@@ -112,4 +114,8 @@ public static class BookEndpoints
         .Produces(StatusCodes.Status204NoContent)
         .Produces<ApiResponse<BookDto>>(StatusCodes.Status404NotFound);
     }
+
+    private static string SanitizeForLog(string value) =>
+        value.Replace("\r", "\\r", StringComparison.Ordinal)
+            .Replace("\n", "\\n", StringComparison.Ordinal);
 }
