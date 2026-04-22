@@ -22,6 +22,8 @@ bld/
 [Oo]bj/
 [Ll]og/
 [Ll]ogs/
+# Keep the hooks logs placeholder so the directory is tracked
+!.github/hooks/logs/.gitkeep
 
 ## NuGet
 *.nupkg
