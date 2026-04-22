@@ -6,6 +6,8 @@ using BookShelf.Application.Books.Queries.GetBookById;
 using BookShelf.Application.Books.Queries.GetBooks;
 using BookShelf.Application.Common.Models;
 using MediatR;
+using Microsoft.Extensions.Logging;
+using System.Diagnostics;
 
 namespace BookShelf.API.Endpoints;
 
@@ -14,6 +16,26 @@ public static class BookEndpoints
     public static void MapBookEndpoints(this IEndpointRouteBuilder app)
     {
         var group = app.MapGroup("/api/books").WithTags("Books");
+        var logger = app.ServiceProvider.GetRequiredService<ILoggerFactory>().CreateLogger("BookEndpoints");
+
+        group.AddEndpointFilter(async (context, next) =>
+        {
+            var stopwatch = Stopwatch.StartNew();
+            var httpContext = context.HttpContext;
+
+            logger.LogInformation("Handling endpoint request {Method} {Path}", httpContext.Request.Method, httpContext.Request.Path);
+            try
+            {
+                var result = await next(context);
+                logger.LogInformation("Handled endpoint request {Method} {Path} in {ElapsedMilliseconds}ms", httpContext.Request.Method, httpContext.Request.Path, stopwatch.ElapsedMilliseconds);
+                return result;
+            }
+            catch (Exception ex)
+            {
+                logger.LogError(ex, "Unhandled exception in endpoint request {Method} {Path}", httpContext.Request.Method, httpContext.Request.Path);
+                throw;
+            }
+        });
 
         group.MapPost("/", async (CreateBookRequest request, IMediator mediator) =>
         {

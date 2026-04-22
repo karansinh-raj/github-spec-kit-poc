@@ -10,6 +10,8 @@ using BookShelf.Application.ReadingLists.Queries.GetReadingListById;
 using BookShelf.Application.ReadingLists.Queries.GetReadingLists;
 using BookShelf.Application.ReadingLists.Queries.GetReadingListStats;
 using MediatR;
+using Microsoft.Extensions.Logging;
+using System.Diagnostics;
 
 namespace BookShelf.API.Endpoints;
 
@@ -18,6 +20,26 @@ public static class ReadingListEndpoints
     public static void MapReadingListEndpoints(this IEndpointRouteBuilder app)
     {
         var group = app.MapGroup("/api/reading-lists").WithTags("Reading Lists");
+        var logger = app.ServiceProvider.GetRequiredService<ILoggerFactory>().CreateLogger("ReadingListEndpoints");
+
+        group.AddEndpointFilter(async (context, next) =>
+        {
+            var stopwatch = Stopwatch.StartNew();
+            var httpContext = context.HttpContext;
+
+            logger.LogInformation("Handling endpoint request {Method} {Path}", httpContext.Request.Method, httpContext.Request.Path);
+            try
+            {
+                var result = await next(context);
+                logger.LogInformation("Handled endpoint request {Method} {Path} in {ElapsedMilliseconds}ms", httpContext.Request.Method, httpContext.Request.Path, stopwatch.ElapsedMilliseconds);
+                return result;
+            }
+            catch (Exception ex)
+            {
+                logger.LogError(ex, "Unhandled exception in endpoint request {Method} {Path}", httpContext.Request.Method, httpContext.Request.Path);
+                throw;
+            }
+        });
 
         group.MapPost("/", async (CreateReadingListRequest request, IMediator mediator) =>
         {
