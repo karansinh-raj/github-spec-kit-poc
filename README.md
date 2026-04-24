@@ -4,6 +4,16 @@ A hands-on proof-of-concept demonstrating **GitHub Spec Kit** and **Spec-Driven 
 
 ---
 
+## Tech Stack
+
+- .NET 10 (C#)
+- ASP.NET Core Minimal APIs
+- GitHub Spec Kit (Spec-Driven Development workflow)
+- Entity Framework Core (InMemory provider)
+- xUnit + FluentAssertions + NSubstitute (testing)
+
+---
+
 ## What is GitHub Spec Kit?
 
 [GitHub Spec Kit](https://github.com/github/spec-kit) is an open-source toolkit that enables **Spec-Driven Development** — a structured process where specifications become the primary artifact, not throwaway documents. Instead of jumping straight into code ("vibe coding"), you define *what* you want to build through specifications, and AI coding agents generate working implementations from them.
