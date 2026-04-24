@@ -1,7 +1,7 @@
 ## .NET
-bin/
-obj/
-publish/
+**/bin/
+**/obj/
+**/publish/
 
 ## User-specific files
 *.user
@@ -10,18 +10,16 @@ publish/
 *.sln.docstates
 
 ## Build results
-[Dd]ebug/
-[Rr]elease/
-x64/
-x86/
-[Ww][Ii][Nn]32/
-[Aa][Rr][Mm]/
-[Aa][Rr][Mm]64/
-bld/
-[Bb]in/
-[Oo]bj/
-[Ll]og/
-[Ll]ogs/
+**/[Dd]ebug/
+**/[Rr]elease/
+**/x64/
+**/x86/
+**/[Ww][Ii][Nn]32/
+**/[Aa][Rr][Mm]/
+**/[Aa][Rr][Mm]64/
+**/bld/
+**/[Ll]og/
+**/[Ll]ogs/
 # Keep the hooks logs placeholder so the directory is tracked
 !.github/hooks/logs/.gitkeep
 

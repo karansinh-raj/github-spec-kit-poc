@@ -19,6 +19,14 @@ public class BookRepository : IBookRepository
         return await _context.Books.FindAsync([id], cancellationToken);
     }
 
+    public async Task<List<Book>> GetByGenreAsync(Genre genre, CancellationToken cancellationToken = default)
+    {
+        return await _context.Books
+            .Where(b => b.Genre == genre)
+            .OrderBy(b => b.Title)
+            .ToListAsync(cancellationToken);
+    }
+
     public async Task<(List<Book> Items, int TotalCount)> GetAllAsync(
         int page, int pageSize,
         string? genre, string? author, string? search,
