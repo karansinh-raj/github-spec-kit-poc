@@ -4,6 +4,7 @@ using BookShelf.Application.Books.Commands.UpdateBook;
 using BookShelf.Application.Books.DTOs;
 using BookShelf.Application.Books.Queries.GetBookById;
 using BookShelf.Application.Books.Queries.GetBooks;
+using BookShelf.Application.Books.Queries.GetBooksByGenre;
 using BookShelf.Application.Common.Models;
 using MediatR;
 
@@ -89,5 +90,16 @@ public static class BookEndpoints
         .WithName("DeleteBook")
         .Produces(StatusCodes.Status204NoContent)
         .Produces<ApiResponse<BookDto>>(StatusCodes.Status404NotFound);
+
+        group.MapGet("/genre/{genre}", async (string genre, IMediator mediator) =>
+        {
+            var result = await mediator.Send(new GetBooksByGenreQuery(genre));
+            if (!result.IsSuccess)
+                return Results.BadRequest(ApiResponse<List<BookDto>>.Fail("Genre", result.Errors.First()));
+            return Results.Ok(ApiResponse<List<BookDto>>.Ok(result.Value!));
+        })
+        .WithName("GetBooksByGenre")
+        .Produces<ApiResponse<List<BookDto>>>()
+        .Produces<ApiResponse<List<BookDto>>>(StatusCodes.Status400BadRequest);
     }
 }
