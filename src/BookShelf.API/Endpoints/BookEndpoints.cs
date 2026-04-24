@@ -7,6 +7,8 @@ using BookShelf.Application.Books.Queries.GetBooks;
 using BookShelf.Application.Books.Queries.GetBooksByGenre;
 using BookShelf.Application.Common.Models;
 using MediatR;
+using Microsoft.Extensions.Logging;
+using System.Diagnostics;
 
 namespace BookShelf.API.Endpoints;
 
@@ -15,6 +17,28 @@ public static class BookEndpoints
     public static void MapBookEndpoints(this IEndpointRouteBuilder app)
     {
         var group = app.MapGroup("/api/books").WithTags("Books");
+
+        group.AddEndpointFilter(async (context, next) =>
+        {
+            var stopwatch = Stopwatch.StartNew();
+            var httpContext = context.HttpContext;
+            var logger = httpContext.RequestServices.GetRequiredService<ILoggerFactory>().CreateLogger("BookEndpoints");
+            var method = SanitizeForLog(httpContext.Request.Method);
+            var path = SanitizeForLog(httpContext.Request.Path.ToString());
+
+            logger.LogInformation("Handling endpoint request {Method} {Path}", method, path);
+            try
+            {
+                var result = await next(context);
+                logger.LogInformation("Handled endpoint request {Method} {Path} in {ElapsedMilliseconds}ms", method, path, stopwatch.ElapsedMilliseconds);
+                return result;
+            }
+            catch (Exception ex)
+            {
+                logger.LogError(ex, "Unhandled exception in endpoint request {Method} {Path}", method, path);
+                throw;
+            }
+        });
 
         group.MapPost("/", async (CreateBookRequest request, IMediator mediator) =>
         {
@@ -102,4 +126,8 @@ public static class BookEndpoints
         .Produces<ApiResponse<List<BookDto>>>()
         .Produces<ApiResponse<List<BookDto>>>(StatusCodes.Status400BadRequest);
     }
+
+    private static string SanitizeForLog(string value) =>
+        value.Replace("\r", "\\r", StringComparison.Ordinal)
+            .Replace("\n", "\\n", StringComparison.Ordinal);
 }
